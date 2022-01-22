@@ -28,8 +28,8 @@ export default function DailyTimeTable() {
       backgroundColor: [
         'rgba(30, 76, 148,1.0)',
       'rgba(130, 100, 230,1.0)',
-      'rgba(148, 200, 222,1.0)',
-      'rgba(116, 185, 255,1.0)',
+      'rgba(250, 177, 160,1.0)',
+      'rgba(253, 121, 168,1.0)',
       'rgba(0, 184, 148,1.0)',
       'rgba(255, 234, 167,1.0)',
       'rgba(255, 118, 117,1.0)',
