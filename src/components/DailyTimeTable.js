@@ -44,7 +44,7 @@ export default function DailyTimeTable() {
     layout: {
       padding: {
           left: 0,
-          right: 70,
+          right: 100,
           top: 0,
           bottom: 50
       }
