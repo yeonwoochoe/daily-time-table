@@ -16,10 +16,8 @@
 
 
 
-![time-table](https://user-images.githubusercontent.com/89890240/150886251-cbde09ba-8caa-475d-8b8f-a4e6cb211700.jpg)
+![time-table](https://user-images.githubusercontent.com/89890240/150891990-da3a20e6-7f36-4026-8951-76f53c919a4f.jpg)
 
-
-  
 
 
 
