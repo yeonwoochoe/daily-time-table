@@ -7,7 +7,7 @@
  
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyeonwoochoe%2Fyeonwoochoe&count_bg=%23EEDFFF&title_bg=%23C592FF&icon=opsgenie.svg&icon_color=%23FFFFFF&title=VISIT&edge_flat=false)](https://hits.seeyoufarm.com)
  
-<h1>chart.js로 만든 간단한 타임테이블!</h1>
+<h1>chart.js로 간단히 만든 타임테이블!</h1>
 <h1>🔥🔥잘 지켜보자 🔥🔥</h1><br/>
 
 <br/>
