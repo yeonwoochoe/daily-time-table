@@ -1,6 +1,6 @@
 import React from 'react';
-import { Pie } from 'react-chartjs-2'
-
+import { Pie } from 'react-chartjs-2';
+import "chartjs-plugin-piechart-outlabels";
 
 export default function DailyTimeTable() {
 
@@ -10,7 +10,7 @@ export default function DailyTimeTable() {
 <Pie
   data={{
     labels: [
-      '23-08    꿈나라💤💤💤',
+      '23-08    꿈나라🌙🌙🌙',
       '08-09    기상 및 공부준비😵‍💫 ',
       '09-13    Study👩🏻‍💻👩🏻‍💻👩🏻‍💻',
       '13-14    운동 gogo💪🏻',
@@ -31,7 +31,7 @@ export default function DailyTimeTable() {
       'rgba(250, 177, 160,1.0)',
       'rgba(253, 121, 168,1.0)',
       'rgba(0, 184, 148,1.0)',
-      'rgba(255, 234, 167,1.0)',
+      'rgba(55, 120, 222,1.0)',
       'rgba(255, 118, 117,1.0)',
       'rgba(0, 184, 148,1.0)'
     ]
@@ -40,13 +40,35 @@ export default function DailyTimeTable() {
   }}
 
   options={{ maintainAspectRatio: true,
- 
+
+    plugins: {
+      legend: true,
+      outlabels: {
+        text: '%l',
+        borderRadius: 10,
+        color: 'white',
+        padding: 13,
+        stretch: 50,
+        lineWidth: 5, 
+        font: {
+            resizable: true,
+            minSize: 10,
+            maxSize:40
+        },
+        textAlign: "center"
+    }
+    
+      },
+  //   showAllTooltips: true,// tooltip 항상표시
+  //   tooltips: {
+  //     enabled: true, // tooltip 표시(기본은 마우스 hover)
+  // },
     layout: {
       padding: {
-          left: 0,
-          right: 100,
-          top: 0,
-          bottom: 50
+          left: 20,
+          right: 10,
+          top: 90,
+          bottom: 90
       }
   },
     hoverBorderWidth: 20,
@@ -63,11 +85,9 @@ export default function DailyTimeTable() {
         boxWidth:14,
         usePointStyle:true
     }
-    }
+    },
 
 
-  
-  
   }
 }
 
